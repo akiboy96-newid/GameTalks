@@ -6,6 +6,3 @@
 # Run app
 `npm install`
 `npm start`
-
-## View App
-View the application at [http://indietalk.herokuapp.com](http://indietalk.herokuapp.com).
