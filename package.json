@@ -1,0 +1,29 @@
+{
+  "name": "indietalk",
+  "version": "0.1.0",
+  "homepage": "https://indietalk.herokuapp.com",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "gh-pages": "^1.1.0",
+    "material-ui": "^0.20.0",
+    "moment": "^2.21.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-simple-login": "^1.1.0",
+    "react-scripts": "^1.1.1",
+    "react-signup-login-component": "^1.0.3",
+    "tachyons": "^4.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run-script build && git add --all && git commit -m 'Deploy.'",
+    "deploy": "git push heroku `git subtree split --prefix=build -b master` --force"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}

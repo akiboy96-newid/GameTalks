@@ -1,0 +1,18 @@
+.review-container {	
+	background-color: #eeeeee;
+    padding: 0.5em;
+    border-bottom: 1px solid #949494;
+}
+
+.review {
+    text-align: left;
+}
+
+.create-review-container {
+    padding: 25px 0;
+    background-color: #eeeeee;
+}
+
+.left h1,
+.left p {
+}
