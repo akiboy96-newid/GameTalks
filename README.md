@@ -1,6 +1,6 @@
-#sWebsite built in React.JS to banter about video games and give reviews. 
+Website built in React.JS to banter about video games and give reviews. 
 
-#Install node
+# Install node
 'brew install node'
 
 # Run app
